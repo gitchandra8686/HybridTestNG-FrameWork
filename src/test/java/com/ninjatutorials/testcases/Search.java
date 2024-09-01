@@ -45,7 +45,7 @@ public class Search extends Base {
 		// Assert.assertEquals(searchResultPage.retriveNoProductMatchedMsgText(),
 		// dataProp.getProperty("noProductMatched")); //intentionally failed to check
 		// fail status
-		Assert.assertTrue(searchResultPage.retriveNoProductMatchedMsgText().contains("abcd"),
+		Assert.assertTrue(searchResultPage.retriveNoProductMatchedMsgText().contains("wxyz"),
 				"no product matched warning message should be shown");
 	}
 
