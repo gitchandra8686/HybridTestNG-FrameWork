@@ -40,7 +40,6 @@ public class ExtentReporter {
 		extentReports.setSystemInfo("Browser Name", properties.getProperty("browserName"));
 		extentReports.setSystemInfo("Operationg System", System.getProperty("os.name"));
 		extentReports.setSystemInfo("UserName", System.getProperty("user.name"));
-		extentReports.setSystemInfo("UserName", System.getProperty("user.name"));
 		extentReports.setSystemInfo("Java version", System.getProperty("java.version"));
 		return extentReports;
 
