@@ -75,7 +75,7 @@ public class MyListeners implements ITestListener {
 
 	@Override
 	public void onFinish(ITestContext context) {
-		extentReports.flush();
+		extentReports.flush(); // Mandatory we need to flush to output view.
 	}
 
 }

@@ -12,7 +12,10 @@ import org.openqa.selenium.io.FileHandler;
 public class util {
 
 	public static void main(String[] args) throws IOException {
-
+		
+		
+		
+		//screenshot example
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
